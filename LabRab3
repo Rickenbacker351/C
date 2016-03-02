@@ -16,25 +16,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	i = 1;
 	while (a <= 10)
 	{
-
 		cout << a <<"   ";
 		while (i <= 10)
 		{
-
-
 			s = i*a;
-
 			cout << s << "\t";
 			i++;
-
 		}
 		a++;
 		i = 1;
 		cout << "\n";
 	}
-	
-	
-	
 	system("pause");
 	return 0;
 }
