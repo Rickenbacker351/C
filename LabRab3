@@ -1,0 +1,40 @@
+// ZaytsevLabRab3.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
+#include "iostream"
+#include "cmath"
+#include "locale"
+
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	setlocale(LC_ALL, "RUSSIAN");
+	int a,s,i;
+	a = 1;
+	i = 1;
+	while (a <= 10)
+	{
+
+		cout << a <<"   ";
+		while (i <= 10)
+		{
+
+
+			s = i*a;
+
+			cout << s << "\t";
+			i++;
+
+		}
+		a++;
+		i = 1;
+		cout << "\n";
+	}
+	
+	
+	
+	system("pause");
+	return 0;
+}
